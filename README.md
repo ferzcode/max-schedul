@@ -4,20 +4,20 @@
 
 ## Возможности
 
-- Расписание для **любой группы** по названию (АСУб-23-1, ИСИб-23-1 и т.д.)
-- Фильтр по дате: сегодня, завтра, день недели, конкретное число
-- Фильтр по преподавателю (на день или на всю неделю)
-- Ближайшая пара, во сколько начинается/заканчивается
-- Учёт чётности/нечётности недели
-- **Голосовой ввод** через Yandex SpeechKit
-- **YandexGPT (RAG)** для сложных вопросов
-- PostgreSQL + SQLAlchemy (пользователи, логи)
-- Inline-кнопки в MAX
+- 📅 Расписание для **любой группы** по названию (АСУб-23-1, ИСИб-23-1 и т.д.)
+- 🔍 Фильтр по дате: сегодня, завтра, день недели, конкретное число
+- 👨‍🏫 Фильтр по преподавателю (на день или на всю неделю)
+- ⏰ Ближайшая пара, во сколько начинается/заканчивается
+- 📆 Учёт чётности/нечётности недели
+- 🎤 **Голосовой ввод** через Yandex SpeechKit
+- 🤖 **YandexGPT (RAG)** для сложных вопросов
+- 💾 PostgreSQL + SQLAlchemy (пользователи, логи)
+- 🎛 Inline-кнопки в MAX
 
 ## Стек
 
 - Python 3.14
-- [maxapi](https://github.com/love-apples/maxapi) — SDK для бота MAX
+- maxapi — SDK для бота MAX
 - PostgreSQL + SQLAlchemy
 - Yandex Cloud: YandexGPT, SpeechKit
 - aiohttp, BeautifulSoup4
@@ -25,8 +25,8 @@
 ## Установка
 
 ```bash
-git clone https://github.com/EgorShata1ov/max-schedule-bot.git
-cd max-schedule-bot
+git clone https://github.com/ferzcode/max-schedul.git
+cd max-schedul
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
