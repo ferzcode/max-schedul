@@ -27,6 +27,7 @@
 ```bash
 git clone https://github.com/ferzcode/max-schedul.git
 cd max-schedul
+cd max-schedule-bot
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
